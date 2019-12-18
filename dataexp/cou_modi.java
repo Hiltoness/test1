@@ -36,7 +36,7 @@ public class cou_modi extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("课程信息修改");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

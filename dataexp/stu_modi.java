@@ -35,7 +35,7 @@ public class stu_modi extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("学生信息修改");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

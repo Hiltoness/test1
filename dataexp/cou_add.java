@@ -35,8 +35,8 @@ public class cou_add extends JFrame{
 	public void init() {
 
 	    /*setLayout(new FlowLayout());*/
-	    setTitle("学生信息录入");
-	    setSize(300, 180);
+	    setTitle("课程信息录入");
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

@@ -15,6 +15,7 @@ public class stu_search extends JFrame{
 	public stu_search(String id){
 		// 窗体的相关属性的定义
 //		super("JTable数据绑定示例");
+		this.setTitle("查询学生信息");
 		this.setSize(900,500);
 		this.setLayout(null);
 		this.setLocation(100,50);
@@ -59,7 +60,6 @@ public class stu_search extends JFrame{
 				while(rs.next()){
 				  count++;
 				}
-				System.out.println(count);
 				// 将查询获得的记录数据，转换成适合生成JTable的数据形式
 				Object[][] info = new Object[count][10];
 				count = 0;
@@ -77,14 +77,12 @@ public class stu_search extends JFrame{
 				    info[count][9] = rs.getString("cloc");
 //				    
 					 count++;
-					 System.out.println(rs.getString(count));
 				}
 				
 				// 定义表头
 				String[] title = {"学生学号","学生姓名","学生班级","学生院系","课程号","课程名","任课老师","学分","上课时间","上课地点"};
 				// 创建JTable
 				this.tabDemo = new JTable(info,title);
-				System.out.println(info);
 				// 显示表头
 				this.jth = this.tabDemo.getTableHeader();
 				// 将JTable加入到带滚动条的面板中

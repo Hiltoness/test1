@@ -33,7 +33,6 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.JTableHeader;
 
-import other.manageFrame01.stu_mana;
 
 public class cou_frame extends JFrame{
 
@@ -49,7 +48,7 @@ public class cou_frame extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("课程信息管理");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

@@ -30,7 +30,7 @@ public class tea_del extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("教师信息删除");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

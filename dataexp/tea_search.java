@@ -15,6 +15,7 @@ public class tea_search extends JFrame{
 	public tea_search(String id){
 		// 窗体的相关属性的定义
 //		super("JTable数据绑定示例");
+		this.setTitle("查询教师信息");
 		this.setSize(900,500);
 		this.setLayout(null);
 		this.setLocation(100,50);

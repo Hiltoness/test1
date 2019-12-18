@@ -30,7 +30,7 @@ public class stu_del extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("学生信息删除");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}

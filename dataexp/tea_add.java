@@ -36,7 +36,7 @@ public class tea_add extends JFrame{
 
 	    /*setLayout(new FlowLayout());*/
 	    setTitle("教师信息录入");
-	    setSize(300, 180);
+	    setSize(400, 180);
 	    setLocationRelativeTo(null);
 
 	}
